@@ -65,11 +65,11 @@ if not df.empty:
 
         # Display Output 1: Workflow Pain
         st.subheader("Workflow Pain")
-        st.info(**pain_point**)
+        st.info(f"**{pain_point}**")
 
-        # Display Output 2: Value Message
+       # Display Output 2: Value Message
         st.subheader("Value Message")
-        st.success(**value_message**)
+        st.success(f"**{value_message}**")
         
     else:
         st.warning("No data found for this specific combination.")
