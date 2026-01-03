@@ -12,7 +12,7 @@ col1, col2, col3 = st.columns([1, 1, 1])
 with col2:
     try:
         # 'use_column_width=False' ensures it uses the explicit width=100
-        st.image("logo.png", width=100)
+        st.image("logo.png", width=150)
     except:
         st.warning("Logo not found. Upload 'logo.png'.")
 
